@@ -1,20 +1,21 @@
 
 .container--experience {
     height: auto;
-    background-color: ivory;
+    background-color: #E3F6F5;
     padding-top: 1rem;
 }
 h1 {
     color: #4E432F;
     font-size: 40px;
 }
-h2 {
-    color: #FB7D3A;
-    font-size: 50px;
+.container--experience h2{
+    color: #1f2224;
+    font-size: 3rem;
 }
 h3{
-    color: #B5B4A6;
-    font-size: 37px;
+    margin-top: -3vh;
+    color: #6f6f8a;
+    font-size: 1.5vw;
 }
 .title {
     font-size: 1.5em;
@@ -26,13 +27,12 @@ h3{
 .container--employment{
     display: flex;
     flex-direction: column;
-    
-    margin: 0 10%;
+    margin: 0vh 10% 10vh 10%;
 }
 .employment{
-    text-align: left;  
-    background: #dbcebf;
-    padding: 1rem 1rem;  
+    text-align: left;
+    background: #BAE8E8;
+    padding: 1rem 1rem;
 }
 ul {
     text-align: left;

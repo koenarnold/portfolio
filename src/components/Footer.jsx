@@ -8,11 +8,11 @@ function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia">
-          <a href='https://www.linkedin.com/in/elta7679/' target='_blank'><LinkedInIcon /></a>
-          <a href='https://github.com/elta79' target='_blank'><GitHubIcon /></a>
-          <a href='mailto: elta7679@gmail.com'><EmailIcon /></a> 
+          <a href='https://www.linkedin.com/in/arnoldkoen/' target='_blank'><LinkedInIcon /></a>
+          <a href='https://github.com/koenarnold/' target='_blank'><GitHubIcon /></a>
+          <a href='mailto:kostarnold@gmail.com'><EmailIcon /></a>
         </div>
-        <p> &copy; 2023 emilyarnold</p>
+        <p> &copy; 2023 koenarnold</p>
     </div>
   )
 }

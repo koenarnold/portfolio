@@ -1,10 +1,11 @@
 .home {
   width: 100%;
-  align-items: center;    
-  color: #409488;  
+  align-items: center;
+  color: #272643;
   display: flex;
   flex-direction: column;
-  }  
+  }
+
 .about {
   width: 100%;
   height: calc(100vh - 100px);
@@ -13,12 +14,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: ivory;
-  color: #FB7D3A ;
+  background-color: #E3F6F5;
+  color: #272643 ;
 }
-.about h2 { 
+.about h2 {
   font-size: 80px;
-  color: #4E432F ;
+  color: #393632 ;
   height: 50px;
 }
 .about .prompt {
@@ -30,7 +31,7 @@
   margin: 5px;
   color: #B5B4A6 ;
 }
-.skills {    
+.skills {
   font-size: 35px;
   width: 100%;
   height: 100%;
@@ -38,17 +39,23 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #dbcebf;  
+  background-color: #BAE8E8;
   padding-bottom: 50px;
   padding-top: 50px;
 }
 .skills h1 {
-  color: #BF5A1B    
+  color: #2C698D;
+  margin: 0;
+  font-size: 5vh;
+}
+.skills h2 {
+  margin-top: 0;
+  font-size: 3.5vh;
 }
 .skills .list {
   list-style: none;
   width: 60%;
-  padding-left: 0px;    
+  padding-left: 0px;
 }
 .list span {
   font-size: 20px;
@@ -75,7 +82,7 @@
   position: relative;
   top:80px;
   right: 100px;
-  border-radius: 0px 0px 200px 200px;  
+  border-radius: 0px 0px 200px 200px;
 }
 .feather1{
   width: 0;
@@ -106,7 +113,7 @@
   top: 4px;
   left: 4px;
 }
-.beak {  
+.beak {
   height: 0;
   width: 0;
   border-top:15px solid transparent;
@@ -120,7 +127,7 @@
   background-color: #4E432F;
   width: 170px;
   height: 85px;
-  border-radius: 0px 0px 170px 170px;  
+  border-radius: 0px 0px 170px 170px;
   position:relative;
   right: 120px;
   bottom: 140px;
@@ -143,7 +150,7 @@
 
 
 @media only screen and (max-width: 600px) {
-  
+
   .about h2 {
     font-size: 40px;
   }
@@ -192,7 +199,7 @@
     position: relative;
     top:40px;
     right: 50px;
-    border-radius: 0px 0px 200px 200px;  
+    border-radius: 0px 0px 200px 200px;
   }
   .feather1{
     width: 0;
@@ -223,7 +230,7 @@
     top: 2px;
     left: 2px;
   }
-  .beak {  
+  .beak {
     height: 0;
     width: 0;
     border-top:7.5px solid transparent;
@@ -237,7 +244,7 @@
     background-color: #4E432F;
     width: 85px;
     height: 42.5px;
-    border-radius: 0px 0px 170px 170px;  
+    border-radius: 0px 0px 170px 170px;
     position:relative;
     right: 60px;
     bottom: 100px;
