@@ -17,8 +17,8 @@ function Experience() {
         <h4 className='title'>Employment</h4>
         <h4 className='employment'>Advanced Software Engineering Bootcamp | Hack Reactor | 2023</h4>
         <ul>
-          <li>Completed over 1000 hours of coding over the course of 15 weeks.</li>
-          <li> ADD MORE TO THIS </li>
+          <li>15-week software engineering immersive program with over 1000+ hours of coding.</li>
+          <li>Got experience in full-stack development and working as part of a team within an AGILE environment.</li>
         </ul>
         <h4 className='employment'>Estimator | J&J Waterproofing | 2022-Present</h4>
         <ul>
